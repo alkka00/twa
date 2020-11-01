@@ -10,7 +10,7 @@
         <p>Uložit údaje <input type="checkbox" name="checkbox" value="">  </p>
         <p><input type="submit" name="submit" value="Odeslat"> </p>
     </form>
-g
+
 
 <?php
 // Instrukce k úkolu
