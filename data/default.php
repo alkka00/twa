@@ -7,7 +7,7 @@
     <form action="" method="POST">
         <P>Email <input type="email" name="email" value=""</P>
         <P>Heslo <input type="password" name="heslo" value=""</P>
-        <p>Uložit údaje <input type="checkbox" name="povrzeni" value="">  </p>
+        <p>Uložit údaje <input type="checkbox" name="checkbox" value="">  </p>
         <p><input type="submit" name="submit" value="Odeslat"> </p>
     </form>
 g
