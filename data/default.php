@@ -1,11 +1,6 @@
 <?php
     $title = 'Výchozí stránka s úkolem';
     require_once 'inc/head.php';
-
-
-
-
-
 ?>
 <h1>Doplňte formulář</h1>
 
@@ -15,7 +10,7 @@
         <p>Uložit údaje <input type="checkbox" name="povrzeni" value="">  </p>
         <p><input type="submit" name="submit" value="Odeslat"> </p>
     </form>
-
+g
 
 <?php
 // Instrukce k úkolu
