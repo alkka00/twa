@@ -17,14 +17,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fd7425-f08e-4a33-90e8-5c2ab0dc5c91" name="Default Changelist" comment="ahoj">
+      <change afterPath="$PROJECT_DIR$/classes/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/controllers/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Default/default.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -55,9 +65,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Documents and Settings" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +96,12 @@
       <workItem from="1603196502499" duration="9469000" />
       <workItem from="1603967955652" duration="1310000" />
       <workItem from="1604153184688" duration="6438000" />
-      <workItem from="1604227176670" duration="14092000" />
+      <workItem from="1604227176670" duration="14798000" />
+      <workItem from="1604250416398" duration="636000" />
+      <workItem from="1604406460367" duration="6537000" />
+      <workItem from="1606054293390" duration="665000" />
+      <workItem from="1606058012964" duration="143000" />
+      <workItem from="1606073583944" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="ahoj">
       <created>1604247884882</created>
@@ -130,22 +145,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="ahoj" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1417" y="232" key="NewPhpClassDialog" timestamp="1603203055921">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606058054343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1417" y="232" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603203055921" />
-    <state x="1041" y="461" key="NewPhpFileDialog" timestamp="1603200111011">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606058054343" />
+    <state x="1417" y="232" key="NewPhpClassDialog" timestamp="1604410677753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1041" y="461" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603200111011" />
+    <state x="1417" y="232" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410677753" />
+    <state x="1041" y="461" key="NewPhpFileDialog" timestamp="1604412115089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1041" y="461" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604412115089" />
     <state x="992" y="241" key="RollbackChangesDialog" timestamp="1603199315693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="992" y="241" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603199315693" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1603197274305">
+    <state x="922" y="150" key="SettingsEditor" timestamp="1604406941824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603197274305" />
+    <state x="922" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604406941824" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604249256542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

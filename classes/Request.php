@@ -31,6 +31,7 @@ class Request
         $this->postData = filter_input_array(INPUT_POST);
     }
 
+
     /**
      * Nastavení části URL podle masky
      */
@@ -38,6 +39,7 @@ class Request
     {
         $url = filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING);
         $parseUrl = parse_url($url);
+
         // Odeberu první lomítko na začátku řetězce
         $path = substr($parseUrl['path'], 1);
 

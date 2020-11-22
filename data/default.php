@@ -2,14 +2,17 @@
     $title = 'Výchozí stránka s úkolem';
     require_once 'inc/head.php';
 ?>
+
 <h1>Doplňte formulář</h1>
 
-    <form action="" method="POST">
-        <P>Email <input type="email" name="email" value=""</P>
-        <P>Heslo <input type="password" name="heslo" value=""</P>
-        <p>Uložit údaje <input type="checkbox" name="checkbox" value="">  </p>
-        <p><input type="submit" name="submit" value="Odeslat"> </p>
-    </form>
+<ul>
+    <li>
+        Vytvořte jednoduchý formulář (v bootstrap), který bude obsahovat 2 textová pole, jedno zaškrtávací pole a odesílací tlačítko.
+    </li>
+    <li>
+        Pole libovolně pojmenujte, účel formuláře je libovolný. Po odeslání formuláře na straně serveru pouze zachyťte tato data a uložte je pomocí Tracy do souborového logo s názvem data.post
+    </li>
+</ul>
 
 
 <?php
